@@ -16,4 +16,5 @@ export default defineConfig({
     },
   },
   base: '/dndprivehistori.github.io/'
+
 })

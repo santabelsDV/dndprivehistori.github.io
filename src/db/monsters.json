@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "name": "Skeleton",
+    "image": "/dndprivehistori.github.io/monsters/scilet.png",
+    "description": "Оживлений скелет, створений некромантом.",
+    "stats": {
+      "hp": 13,
+      "ac": 12,
+      "challenge": 0.25,
+      "abilities": {
+        "str": 10,
+        "dex": 14,
+        "con": 15,
+        "int": 6,
+        "wis": 8,
+        "cha": 5
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Skeleton",
+    "image": "/dndprivehistori.github.io/monsters/scilet.png",
+    "description": "Оживлений скелет, створений некромантом.",
+    "stats": {
+      "hp": 13,
+      "ac": 12,
+      "challenge": 0.25,
+      "abilities": {
+        "str": 10,
+        "dex": 14,
+        "con": 15,
+        "int": 6,
+        "wis": 8,
+        "cha": 5
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Skeleton",
+    "image": "/dndprivehistori.github.io/monsters/scilet.png",
+    "description": "Оживлений скелет, створений некромантом.",
+    "stats": {
+      "hp": 13,
+      "ac": 12,
+      "challenge": 0.25,
+      "abilities": {
+        "str": 10,
+        "dex": 14,
+        "con": 15,
+        "int": 6,
+        "wis": 8,
+        "cha": 5
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Skeleton",
+    "image": "/dndprivehistori.github.io/monsters/scilet.png",
+    "description": "Оживлений скелет, створений некромантом.",
+    "stats": {
+      "hp": 13,
+      "ac": 12,
+      "challenge": 0.25,
+      "abilities": {
+        "str": 10,
+        "dex": 14,
+        "con": 15,
+        "int": 6,
+        "wis": 8,
+        "cha": 5
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Skeleton",
+    "image": "/dndprivehistori.github.io/monsters/scilet.png",
+    "description": "Оживлений скелет, створений некромантом.",
+    "stats": {
+      "hp": 13,
+      "ac": 12,
+      "challenge": 0.25,
+      "abilities": {
+        "str": 10,
+        "dex": 14,
+        "con": 15,
+        "int": 6,
+        "wis": 8,
+        "cha": 5
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Skeleton",
+    "image": "/dndprivehistori.github.io/monsters/scilet.png",
+    "description": "Оживлений скелет, створений некромантом.",
+    "stats": {
+      "hp": 13,
+      "ac": 12,
+      "challenge": 0.25,
+      "abilities": {
+        "str": 10,
+        "dex": 14,
+        "con": 15,
+        "int": 6,
+        "wis": 8,
+        "cha": 5
+      }
+    }
+  }
+]

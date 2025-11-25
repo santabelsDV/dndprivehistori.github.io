@@ -1,24 +1,63 @@
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
 <template>
-  <div class="min-h-screen bg-gray-900 text-gray-200 font-serif">
-    <nav class="flex gap-6 px-10 py-5 bg-black/40 backdrop-blur shadow-lg sticky top-0 z-50 animate-fade-in">
-      <router-link class="hover:text-red-400 transition" to="/">ііфвфів</router-link>
-      <router-link class="hover:text-red-400 transition" to="/races">Раси</router-link>
-      <router-link class="hover:text-red-400 transition" to="/classes">Класи</router-link>
-      <router-link class="hover:text-red-400 transition" to="/bestiary">Бестіарій</router-link>
-      <router-link class="hover:text-red-400 transition" to="/lore">Лор</router-link>
-      <router-link class="hover:text-red-400 transition" to="/contact">Контакти</router-link>
-    </nav>
-    <router-view />
+  <div class="app-container">
+    <header class="site-header">
+      <nav>
+        <RouterLink to="/">Дім</RouterLink>
+        <RouterLink to="/race">Раси</RouterLink>
+        <RouterLink to="/class">Класи</RouterLink>
+        <RouterLink to="/bestiary">Бестіарій</RouterLink>
+        <RouterLink to="/lore">Лор</RouterLink>
+        <RouterLink to="/contacts">Контакти</RouterLink>
+      </nav>
+    </header>
+
+    <main class="content-area">
+      <RouterView />
+    </main>
   </div>
 </template>
 
-
-<style>
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
+<style scoped>
+/* Прості стилі для контейнера, щоб нічого не "пливло" */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
 }
-.animate-fade-in {
-  animation: fadeIn 0.6s ease-out;
+
+.site-header {
+  background-color: #e8dfc5; /* Колір вашого меню */
+  padding: 1rem;
+  border-bottom: 2px solid #3a1f0f;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Центруємо посилання */
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3a1f0f;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #9c4d2f;
+}
+
+.content-area {
+  width: 100%;
+  padding: 20px;
+  /* Важливо: дозволяємо контенту розтягуватися */
+  flex-grow: 1;
 }
 </style>

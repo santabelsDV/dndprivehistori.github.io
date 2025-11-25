@@ -11,8 +11,8 @@ import skeleton from '../assets/scilet.png'
 
 const routes = [
     { path: '/', component: Home },
-    { path: '/races', component: Races },
-    { path: '/classes', component: Classes },
+    { path: '/race', component: Races },
+    { path: '/class', component: Classes },
     { path: '/bestiary', component: Bestiary },
     { path: '/lore', component: Lore },
     { path: '/contact', component: Contact },
